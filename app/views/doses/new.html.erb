@@ -5,4 +5,5 @@
       <%= f.association :ingredient %>
       <%= f.submit "Save Dose to #{@cocktail.name}", class: 'btn btn-primary' %>
     <% end %>
+    <%= link_to "Back to index", :root , class:'btn btn-primary mt-2'%>
 </div>
