@@ -1,3 +1,7 @@
 <div class="container mt-5">
   <h1>Index</h1>
+  <ul><% @cocktails.each do |cocktail| %>
+    <li><%= cocktail.name %></li>
+  <% end %>
+  </ul>
 </div>
